@@ -42,3 +42,17 @@ sudo apt-get update && sudo apt-get -y install google-chrome-stable
 
 # vlc
 sudo apt-get -y install vlc
+
+# virtualbox
+sudo apt-get -y install virtualbox
+
+# vagrant
+sudo apt-get -y install vagrant
+
+# keepass
+sudo apt-add-repository ppa:jtaylor/keepass
+sudo apt-get update
+sudo apt-get -y install keepass2
+
+# google drive gnome integration (http://www.webupd8.org/2016/03/use-gnome-318-google-drive-integration.html)
+sudo apt-get -y install gnome-control-center gnome-online-accounts
